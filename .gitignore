@@ -1,0 +1,30 @@
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Runtime memory storage (may contain personal data)
+memory.json
+manager_memory.json
+memory_vectors.json
+*.tmp
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
